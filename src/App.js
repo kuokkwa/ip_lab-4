@@ -1,7 +1,7 @@
 import './App.css';
 import Table from './components/Table'
 import List from './components/List'
-// import Button from 'react-bootstrap/Button';
+import Button from 'react-bootstrap/Button';
 
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
       <span class="badge rounded-pill text-bg-dark">Dark</span>
       <p></p>
       <List></List>
+      <Button>new button</Button>
       <p></p>
       <button type="button" class="btn btn-primary position-relative">
         Inbox
